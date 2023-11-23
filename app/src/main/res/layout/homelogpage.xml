@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homelogbg"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/homeloglogo"
+        android:layout_width="326dp"
+        android:layout_height="281dp"
+        android:layout_gravity="center_horizontal"
+        android:cropToPadding="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:translationY="-30dp"
+        app:srcCompat="@drawable/homeloglogo"
+        tools:ignore="contentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/logwelcome"
+        android:textAlignment="center"
+        android:textColor="#6C6666"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:translationY="-30dp" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:text="@string/logaboutus"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:translationY="20dp" />
+
+</LinearLayout>

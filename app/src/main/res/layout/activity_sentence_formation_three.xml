@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/english_quizpage_bg"
+    tools:context=".sentence_formation_three">
+
+    <Button
+        android:id="@+id/senthreeto2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:translationY="5dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/exitsenthree"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/ic_round_exit_to_app_24"
+        android:translationX="360dp"
+        android:translationY="-30dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/sentence_formation"
+        android:textSize="43sp"
+        android:translationY="-75dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="364dp"
+        android:layout_height="184dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/identify_the_pronoun_in_the_following_sentence_n_they_were_having_dinner"
+        android:textSize="34sp"
+        android:translationY="-40dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/senthreecor"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/they"
+        android:textSize="34sp"
+        android:translationY="-110dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/senthreewro1"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/dinner"
+        android:textSize="34sp"
+        android:translationY="-120dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/senthreewro3"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/having"
+        android:textSize="34sp"
+        android:translationY="-140dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/senthreewro2"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-70dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/were"
+        android:textSize="34sp"
+        android:translationY="-140dp" />
+
+    <Button
+        android:id="@+id/finshsen"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FD594D"
+        android:text="@string/finish"
+        android:textSize="25sp"
+        android:translationY="-120dp"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>

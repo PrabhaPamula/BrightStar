@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alphabetsindex">Alphabets</string>
+    <string name="sentenceformationindex">Sentence Formation</string>
+    <string name="rhymingindex">Rhyming</string>
+    <string name="caprhyone">cap</string>
+    <string name="naprhyone">nap</string>
+    <string name="maprhyone">map</string>
+    <string name="evs_heading">EVS</string>
+    <string name="fanrhym3">fan</string>
+    <string name="boxrhym3">box</string>
+    <string name="evs_animals2">Animals</string>
+</resources>

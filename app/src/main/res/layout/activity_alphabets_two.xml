@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/english_quizpage_bg"
+    tools:context=".alphabets_two">
+
+    <Button
+        android:id="@+id/alptwoto1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:translationY="5dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/exitalptwo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/ic_round_exit_to_app_24"
+        android:translationX="360dp"
+        android:translationY="-30dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/alphabets"
+        android:textSize="56sp"
+        android:translationY="-60dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="364dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/select_the_vowel_from_the_options"
+        android:textSize="34sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alptwowro1"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/l"
+        android:textSize="34sp"
+        android:translationY="-30dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alptwowro2"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/m"
+        android:textSize="34sp"
+        android:translationY="-40dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alptwocor"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/o"
+        android:textSize="34sp"
+        android:translationY="-50dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alptwowro3"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-70dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/n"
+        android:textSize="34sp"
+        android:translationY="-50dp" />
+
+    <Button
+        android:id="@+id/alptwoto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FD594D"
+        android:text="@string/nextQuestion"
+        android:textSize="25sp"
+        android:translationY="-20dp"
+        tools:ignore="TextContrastCheck"  />
+
+</LinearLayout>

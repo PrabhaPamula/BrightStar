@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mathscontentbg"
+    tools:context=".mathscontent">
+
+    <Button
+        android:id="@+id/mathcontenttosub"
+        android:layout_width="44dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:translationX="5dp"
+        android:translationY="5dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lily_script_one"
+        android:text="@string/additionchp1"
+        android:textColor="#FF6D00"
+        android:textSize="50sp"
+        android:translationX="30dp"
+        android:translationY="100dp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lily_script_one"
+        android:text="@string/subtractionchp2"
+        android:textColor="#FF6D00"
+        android:textSize="50sp"
+        android:translationX="30dp"
+        android:translationY="150dp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lily_script_one"
+        android:text="@string/comparisionchp3"
+        android:textColor="#FF6D00"
+        android:textSize="50sp"
+        android:translationX="30dp"
+        android:translationY="200dp"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="275dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="105dp"
+        android:translationY="-365dp"
+        app:srcCompat="@drawable/mathsublogo"
+        tools:ignore="ImageContrastCheck, ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:translationX="335dp"
+        android:translationY="-475dp"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="SpeakableTextPresentCheck, ContentDescription,ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btntoadd"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/mathsgobtn"
+        android:translationX="320dp"
+        android:translationY="-380dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/contenttosub"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/mathsgobtn"
+        android:translationX="320dp"
+        android:translationY="-335dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/contenttocom"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/mathsgobtn"
+        android:translationX="320dp"
+        android:translationY="-290dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</LinearLayout>

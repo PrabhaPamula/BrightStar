@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/evs_bg2"
+    tools:context=".evs_festivals">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/humtoevs"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:gravity="center"
+        android:translationX="35dp"
+        android:translationY="54dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/human_body"
+        android:textColor="#F57F17"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/exithum1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/ic_round_exit_to_app_24"
+        android:translationX="320dp"
+        android:translationY="-47dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:text="@string/our_both_hands_have_fingers"
+        android:textColor="#FF0101"
+        android:textSize="35sp"
+        android:translationY="-30dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/humonewro2"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="#F3A889"
+        android:text="@string/evshumanbody_four"
+        android:textSize="45sp"
+        android:translationX="30dp"
+        tools:ignore="ButtonStyle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/humonewro1"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="#F3A889"
+        android:text="@string/evshumanbody_five"
+        android:textSize="45sp"
+        android:translationX="195dp"
+        android:translationY="-60dp"
+        tools:ignore="ButtonStyle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/humonewro3"
+        android:layout_width="136dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="#F3A889"
+        android:text="@string/evs_humanbody_eight"
+        android:textSize="35sp"
+        android:translationX="25dp"
+        tools:ignore="ButtonStyle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/humonecor"
+        android:layout_width="127dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="#F3A889"
+        android:text="@string/evs_humanbody_ten"
+        android:textSize="35sp"
+        android:translationX="195dp"
+        android:translationY="-65dp"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/humoneto2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#F3A889"
+        android:text="@string/nextQuestion"
+        android:textSize="25sp"
+        android:translationY="-15dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

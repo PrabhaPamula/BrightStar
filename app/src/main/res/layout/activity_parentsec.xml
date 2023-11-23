@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/parentsec_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parentsec">
+
+    <Button
+        android:id="@+id/parenttolog"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:translationX="5dp"
+        android:translationY="5dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="85dp"
+        android:translationX="335dp"
+        android:translationY="-70dp"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="SpeakableTextPresentCheck, ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/parentsrc_Parent"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/parentsec_parent"
+        android:textColor="#9C27B0"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:translationX="140dp"
+        android:translationY="-110dp" />
+
+    <ImageView
+        android:id="@+id/parentsec_starlogo"
+        android:layout_width="51dp"
+        android:layout_height="63dp"
+        android:contentDescription="@string/parentsec_starlogo"
+        android:translationX="25dp"
+        android:translationY="-80dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/parentsec_weeklygraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Topic Marks"
+        android:textColor="#DD2C00"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:translationX="90dp"
+        android:translationY="-135dp" />
+
+
+    <ImageButton
+        android:id="@+id/parentsec_proceed1"
+        android:layout_width="67dp"
+        android:layout_height="70dp"
+        android:background="@drawable/parentsec_proceed"
+        android:contentDescription="@string/parrentsec_proceed1"
+        android:translationX="340dp"
+        android:translationY="-195dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <ImageView
+        android:id="@+id/parentsec_starlogo2"
+        android:layout_width="51dp"
+        android:layout_height="63dp"
+        android:contentDescription="@string/parentsec_starlogo2"
+        android:translationX="25dp"
+        android:translationY="-185dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/parentsec_3month"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textColor="#DD2C00"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:translationX="90dp"
+        android:translationY="-240dp" />
+
+    <TextView
+        android:id="@+id/parentsec_report"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:text="Marks"
+        android:textColor="#DD2C00"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:translationX="95dp"
+        android:translationY="-250dp" />
+
+    <ImageButton
+        android:id="@+id/parentsec_proceed2"
+        android:layout_width="67dp"
+        android:layout_height="70dp"
+        android:background="@drawable/parentsec_proceed"
+        android:contentDescription="@string/parentsec_proceed2"
+        android:translationX="340dp"
+        android:translationY="-335dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/parentsec_starlogo3"
+        android:layout_width="51dp"
+        android:layout_height="63dp"
+        android:contentDescription="@string/parentsec_starlogo3"
+        android:translationX="30dp"
+        android:translationY="-310dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/parentsec_coursepie"
+        android:layout_width="246dp"
+        android:layout_height="58dp"
+        android:text="Questions"
+        android:textColor="#DD2C00"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:translationX="85dp"
+        android:translationY="-365dp" />
+
+    <TextView
+        android:id="@+id/parentsec_chart"
+        android:layout_width="222dp"
+        android:layout_height="56dp"
+        android:text="Remaining"
+        android:textColor="#DD2C00"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:translationX="85dp"
+        android:translationY="-375dp" />
+
+    <ImageButton
+        android:id="@+id/parentsec_proceed3"
+        android:layout_width="64dp"
+        android:layout_height="81dp"
+        android:background="@drawable/parentsec_proceed"
+
+        android:contentDescription="@string/parentsec_proceed3"
+        android:translationX="340dp"
+        android:translationY="-480dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+</LinearLayout>

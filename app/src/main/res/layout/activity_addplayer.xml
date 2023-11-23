@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gamebg1"
+    tools:context=".addplayer">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Player Name:"
+        android:textColor="#D804B5"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:translationY="80dp" />
+
+    <Button
+        android:id="@+id/gametokid"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/ic_round_exit_to_app_24"
+        android:translationX="160dp"
+        android:translationY="-100dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="X O game"
+        android:textColor="#880A0A"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:translationX="-10dp"
+        android:translationY="-150dp" />
+
+    <ImageView
+        android:layout_width="99dp"
+        android:layout_height="84dp"
+        android:src="@drawable/logo"
+        android:translationX="-160dp"
+        android:translationY="-230dp" />
+
+    <LinearLayout
+
+        android:id="@+id/player1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+
+        android:background="#4D77FF"
+        android:orientation="vertical"
+        android:translationY="-100dp">
+
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/x" />
+
+        <EditText
+            android:id="@+id/player1name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+
+            android:hint="Enter Player 1 Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#5E5656"
+            android:translationX="40dp"
+            android:translationY="-50dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="#EF0000"
+        android:orientation="vertical"
+        android:translationY="-100dp">
+
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+
+            android:layout_marginStart="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/o"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <EditText
+            android:id="@+id/player2name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter Player 2 Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FF5E5656"
+            android:translationX="40dp"
+            android:translationY="-50dp" />
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/startbutton"
+
+
+        android:text="Start Game"
+        android:textColor="#081E1B"
+        android:textSize="35sp"
+        android:translationY="-100dp" />
+
+
+
+
+</LinearLayout>

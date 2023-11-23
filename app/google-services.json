@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "717436690670",
+    "firebase_url": "https://brightstar-8f3bf-default-rtdb.firebaseio.com",
+    "project_id": "brightstar-8f3bf",
+    "storage_bucket": "brightstar-8f3bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717436690670:android:5533cb91cfa15b093f13ff",
+        "android_client_info": {
+          "package_name": "com.example.homelogpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717436690670-sqaki6162ov3ke23ei4ppboonb1ngfqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsaiX8laWPLW8UpxDJOgotPB5ZAH_f_30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717436690670-sqaki6162ov3ke23ei4ppboonb1ngfqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

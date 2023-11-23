@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homelogpage">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Homelogpage">
+        <activity
+            android:name=".game"
+            android:exported="false" />
+        <activity
+            android:name=".addplayer"
+            android:exported="false" />
+        <activity
+            android:name=".pieportion"
+            android:exported="false" />
+        <activity
+            android:name=".LineChart"
+            android:exported="false" />
+        <activity
+            android:name=".threegraphs"
+            android:exported="false" />
+        <activity
+            android:name=".bargraph"
+            android:exported="false" />
+        <activity
+            android:name=".evs_humanbody3"
+            android:exported="false" />
+        <activity
+            android:name=".evs_humanbody2"
+            android:exported="false" />
+        <activity
+            android:name=".evs_humanbody1"
+            android:exported="false" />
+        <activity
+            android:name=".evs_festivals3"
+            android:exported="false" />
+        <activity
+            android:name=".evs_festival2"
+            android:exported="false" />
+        <activity
+            android:name=".evs_festivals"
+            android:exported="false" />
+        <activity
+            android:name=".evs_animal3"
+            android:exported="false" />
+        <activity
+            android:name=".evs_animals2"
+            android:exported="false" />
+        <activity
+            android:name=".evs_animals"
+            android:exported="false" />
+        <activity
+            android:name=".evscontents"
+            android:exported="false" />
+        <activity
+            android:name=".englishrhymone"
+            android:exported="false"/>
+
+        <activity
+            android:name=".comparisionthree"
+            android:exported="false"/>
+
+        <activity
+            android:name=".comparisiontwo"
+            android:exported="false"/>
+
+        <activity
+            android:name=".sentence_formation_three"
+            android:exported="false" />
+        <activity
+            android:name=".sentence_formation_two"
+            android:exported="false" />
+        <activity
+            android:name=".sentence_formation_one"
+            android:exported="false" />
+        <activity
+            android:name=".alphabets_three"
+            android:exported="false" />
+        <activity
+            android:name=".alphabets_two"
+            android:exported="false" />
+        <activity
+            android:name=".Alphabets_One"
+            android:exported="false" />
+
+        <activity
+            android:name=".rhyming_three"
+            android:exported="false" />
+        <activity
+            android:name=".rhyming_two"
+            android:exported="false" />
+        <activity
+            android:name=".english_index"
+            android:exported="false" />
+        <activity
+            android:name=".comparisionone"
+            android:exported="false"/>
+
+        <activity
+            android:name=".subtractionthree"
+            android:exported="false"/>
+
+        <activity
+            android:name=".subtractiontwo"
+            android:exported="false"/>
+
+        <activity
+            android:name=".subtractionone"
+            android:exported="false"/>
+
+        <activity
+            android:name=".additionthree"
+            android:exported="false"/>
+
+        <activity
+            android:name=".mathscontent"
+            android:exported="false"/>
+
+        <activity
+            android:name=".subjectspage"
+            android:exported="false"/>
+
+        <activity
+            android:name=".signuppage"
+            android:exported="false" />
+        <activity
+            android:name=".kidsection"
+            android:exported="false" />
+        <activity
+            android:name=".parentsec"
+            android:exported="false" />
+        <activity
+            android:name=".additiontwo"
+            android:exported="false"/>
+
+        <activity
+            android:name=".additionone"
+            android:exported="false"/>
+
+        <activity
+            android:name=".selectrole"
+            android:exported="false"/>
+
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

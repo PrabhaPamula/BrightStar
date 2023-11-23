@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/english_quizpage_bg"
+    tools:context=".alphabets_three">
+
+    <Button
+        android:id="@+id/alpthreeto2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:translationY="5dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/exitalpthree"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="13dp"
+        android:background="@drawable/ic_round_exit_to_app_24"
+        android:translationX="360dp"
+        android:translationY="-30dp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/alphabets"
+        android:textSize="56sp"
+        android:translationY="-60dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="364dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/select_the_missing_consonant_in_the_given_order_p_q_r_t"
+        android:textSize="34sp"
+        android:translationY="-10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alpthreewor2"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/i"
+        android:textSize="34sp"
+        android:translationY="-60dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alpthreewor3"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/u"
+        android:textSize="34sp"
+        android:translationY="-70dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alpthreewor1"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/a"
+        android:textSize="34sp"
+        android:translationY="-80dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/alpthreecor"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-70dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#FD594D"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/s"
+        android:textSize="34sp"
+        android:translationY="-80dp" />
+
+    <Button
+        android:id="@+id/finshalp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FD594D"
+        android:text="@string/finish"
+        android:textSize="25sp"
+        android:translationY="-60dp"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>

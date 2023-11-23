@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".threegraphs">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+
+                <TextView
+                    android:id="@+id/maths"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/maths"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:padding="10dp"/>
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/barchart1"
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:layout_below="@+id/maths" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/dividercolor"
+                    android:layout_below="@+id/barchart1"/>
+
+                <TextView
+                    android:id="@+id/evs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/evs"
+                    android:layout_below="@+id/barchart1"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_marginTop="20dp"/>
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/barchart2"
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:layout_below="@+id/evs" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/dividercolor"
+                    android:layout_below="@+id/barchart2"/>
+
+                <TextView
+                    android:id="@+id/eng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/english"
+                    android:layout_below="@+id/barchart2"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_marginTop="20dp"/>
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/barchart3"
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:layout_below="@+id/eng" />
+
+        </RelativeLayout>
+
+</ScrollView>
